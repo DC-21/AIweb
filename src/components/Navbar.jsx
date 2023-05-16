@@ -14,7 +14,7 @@ const Navbar = () => {
             <span className="text-2xl text-black-600 mr-1 pt-2 "><ion-icon name="play-circle-outline"></ion-icon></span>
         DiCE
         </div>
-        <ul>
+        <ul className="md:flex md:items-center">
             {
                 Links.map((link)=>(
                     <li>
