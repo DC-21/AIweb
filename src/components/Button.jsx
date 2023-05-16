@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Button = () => {
+const Button = (props) => {
   return (
-    <div>
-      
-    </div>
+    <button className="font-bold rounded-md py-3 px-2">
+      {props.children}
+    </button>
   )
 }
 

@@ -23,7 +23,7 @@ const Navbar = () => {
                     </li>
                 ))
             }
-            <Button/>
+            <Button>Get Started</Button>
         </ul>
       </div>
     </div>
