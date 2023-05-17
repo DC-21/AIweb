@@ -7,7 +7,7 @@ function App() {
   return (
     <>
      <Navbar/>
-     <div className="bg-purple-400 w-full h-screen">
+     <div className="w-full h-screen">
       <Hepa/>
      </div>
     </>
