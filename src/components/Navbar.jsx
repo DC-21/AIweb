@@ -23,7 +23,7 @@ const Navbar = () => {
           </span>
           DiCE
         </div>
-        <div><input type="text" placeholder="Search" className="bg-gray-900 border-b-2 border-gray-400 py-2 px-4 mr-2 text-white focus:outline-none" /></div>
+        <div><input type="text" placeholder="Search" className="bg-white-900 border-b-2 border-gray-400 py-2 px-4 mr-2 text-white focus:outline-none" /></div>
         <ul className="md:flex md:items-center ml-4">
           {Links.map((link) => (
             <li
