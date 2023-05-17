@@ -10,7 +10,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="shadow-md w-full fixed top-0 left-0">
+    <div className="shadow-md w-full top-0 left-0 sticky z-50">
       <div className="md:flex items-center justify-center bg-white py-4">
         <div className="font-bold text-2xl cursor-pointer flex items-center text-indigo-900 container bg--200 py-2 p-4">
           <span className="text-2xl text-black-600 mr-1 pt-2">

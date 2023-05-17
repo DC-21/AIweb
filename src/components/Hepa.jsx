@@ -9,13 +9,14 @@ function Hepa() {
         <div className="container cover mx-auto flex px-5 py-24 items-center justify-center flex-col">
           <div className="text-center lg:w-2/3 w-full">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
-            Unleashing the Power of A
+            Unleashing the Power of AI
             </h1>
             <Player
         autoplay
         loop
         src="https://assets1.lottiefiles.com/packages/lf20_w51pcehl.json" // Replace with the path to your Lottie animation JSON file
         style={{ width: '600px', height: '300px' }} // Set the desired width and height
+        className=' -z-10 hover:-translate-y-4 transition-all ease-in-out duration-300'
          />
             <p className="mb-8 leading-relaxed font-bold text-black text-2xl ">
             "Transforming customer experience with AI-powered chatbots and virtual assistants for seamless interactions and efficient support."
