@@ -8,11 +8,6 @@ const Navbar = () => {
     { name: 'Services', link: '/' },
     { name: 'About', link: '/' },
   ];
-  const handleSearch = (searchTerm) => {
-    // Perform search logic using the search term
-    console.log('Performing search for:', searchTerm);
-    // Add your own search implementation here
-  };
 
   return (
     <div className="shadow-md w-full fixed top-0 left-0">
