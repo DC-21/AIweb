@@ -5,22 +5,12 @@ import Button from './Button';
 function Hepa() {
   return (
     <section className="text-gray-600 body-font">
-      <div
-        className="container"
-        style={{
-          backgroundImage: `url(${code})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          width: '100vw',
-          height: '100vh',
-        }}
-      >
         <div className="container cover mx-auto flex px-5 py-24 items-center justify-center flex-col">
           <div className="text-center lg:w-2/3 w-full">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Unleashing the Power of A
             </h1>
-            <p className="mb-8 leading-relaxed font-bold text-black text-3xl ">
+            <p className="mb-8 leading-relaxed font-bold text-white text-2xl ">
             "Transforming customer experience with AI-powered chatbots and virtual assistants for seamless interactions and efficient support."
             </p>
             <div className="flex justify-center">
@@ -30,7 +20,6 @@ function Hepa() {
             </div>
           </div>
         </div>
-      </div>
     </section>
   );
 }
