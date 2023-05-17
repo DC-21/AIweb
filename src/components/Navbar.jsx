@@ -23,7 +23,7 @@ const Navbar = () => {
           </span>
           DiCE
         </div>
-        <SearchBar onSearch={handleSearch} />
+        <div><input type="text" placeholder="Search" className="bg-gray-900 border-b-2 border-gray-400 py-2 px-4 mr-2 text-white focus:outline-none" /></div>
         <ul className="md:flex md:items-center ml-4">
           {Links.map((link) => (
             <li
@@ -34,6 +34,7 @@ const Navbar = () => {
                 href={link.link}
                 className="text-blue-900 text-lg font-semibold px-4 py-2 hover:bg-blue-200 duration-500 rounded-md"
               >
+                
                 {link.name}
               </a>
             </li>
