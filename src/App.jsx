@@ -1,6 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
+import Hepa from './components/Hepa'
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
     <>
      <Navbar/>
      <div className="bg-purple-400 w-full h-screen">
-      <Hero/>
+      <Hepa/>
      </div>
     </>
   )
