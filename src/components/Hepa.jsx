@@ -1,6 +1,7 @@
 import React from 'react';
 import code from '../images/hero.png';
 import Button from './Button';
+import { Player } from '@lottiefiles/react-lottie-player';
 
 function Hepa() {
   return (
@@ -10,6 +11,12 @@ function Hepa() {
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Unleashing the Power of A
             </h1>
+            <Player
+        autoplay
+        loop
+        src="https://assets1.lottiefiles.com/packages/lf20_w51pcehl.json" // Replace with the path to your Lottie animation JSON file
+        style={{ width: '300px', height: '300px' }} // Set the desired width and height
+         />
             <p className="mb-8 leading-relaxed font-bold text-white text-2xl ">
             "Transforming customer experience with AI-powered chatbots and virtual assistants for seamless interactions and efficient support."
             </p>
