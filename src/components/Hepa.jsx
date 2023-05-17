@@ -8,16 +8,16 @@ function Hepa() {
     <section className="text-gray-600 body-font">
         <div className="container cover mx-auto flex px-5 py-24 items-center justify-center flex-col">
           <div className="text-center lg:w-2/3 w-full">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
             Unleashing the Power of A
             </h1>
             <Player
         autoplay
         loop
         src="https://assets1.lottiefiles.com/packages/lf20_w51pcehl.json" // Replace with the path to your Lottie animation JSON file
-        style={{ width: '300px', height: '300px' }} // Set the desired width and height
+        style={{ width: '600px', height: '300px' }} // Set the desired width and height
          />
-            <p className="mb-8 leading-relaxed font-bold text-white text-2xl ">
+            <p className="mb-8 leading-relaxed font-bold text-black text-2xl ">
             "Transforming customer experience with AI-powered chatbots and virtual assistants for seamless interactions and efficient support."
             </p>
             <div className="flex justify-center">
