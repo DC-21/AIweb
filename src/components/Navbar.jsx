@@ -32,7 +32,7 @@ const Navbar = () => {
               </a>
             </li>
           ))}
-          <Button className="px-4 py-2">Sign In</Button> {/* Added padding here */}
+          <Button className="px-1 py-2">Sign In</Button> {/* Added padding here */}
         </ul>
       </div>
     </div>
