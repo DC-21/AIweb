@@ -54,10 +54,10 @@ const Content = () => {
                 src={imagepro}
                 alt="content"
               />
-              <h2 className="text-lg text-white font-medium title-font mb-4 py-2 px-4 border border-blue-600 rounded shadow">
+              <h2 className="text-lg text-white font-bold title-font mb-4 py-2 px-4 border border-blue-600 rounded shadow">
                 Image Processing
               </h2>
-              <p className="leading-relaxed text-base">
+              <p className="leading-relaxed text-base text-white font-bold">
                 "Our AI transforms image processing capabilities."
               </p>
             </div>
@@ -69,10 +69,10 @@ const Content = () => {
                 src={search}
                 alt="content"
               />
-              <h2 className="text-lg text-white font-medium title-font mb-4 py-2 px-4 border border-blue-600 rounded shadow">
+              <h2 className="text-lg text-white font-bold title-font mb-4 py-2 px-4 border border-blue-600 rounded shadow">
                 Search Engines
               </h2>
-              <p className="leading-relaxed text-base">
+              <p className="leading-relaxed text-base font-bold text-white">
                 "Our AI search engines revolutionize information retrieval."
               </p>
             </div>
