@@ -24,7 +24,7 @@ const Content = () => {
                 src={chat}
                 alt="content"
               />
-              <h1 className="text-lg text-white font-bold title-font mb-4 py-2 px-4 border border-gray-400 rounded shadow">
+              <h1 className="text-lg text-white font-bold title-font mb-4 py-2 px-4 border border-blue-600 rounded shadow">
                 Chat Bots
               </h1>
               <p className="leading-relaxed text-base font-bold text-white">
