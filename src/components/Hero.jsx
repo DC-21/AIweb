@@ -25,7 +25,6 @@ function Hero() {
               Get Started
             </Button>
           </div>
-          <hr className="mt-8 mb-4 h-1 w-full border-b-2 border-indigo-500 w-1/4 mx-auto" />
         </div>
       </div>
     </section>
