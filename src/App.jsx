@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Blog from './Blog'
+import Content from '../src/components/Content'
 
 function App() {
 
@@ -14,6 +15,9 @@ function App() {
      <div className="bg-indigo-200 h-full w-full">
       <Blog/>
      </div>
+     <div>
+      <Content/>
+      </div>
     </>
   )
 }
