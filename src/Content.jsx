@@ -17,7 +17,7 @@ const Content = () => {
           </div>
         </div>
         <div className="flex flex-wrap -m-4">
-          <div className="xl:w-1/4 md:w-1/2 p-4 flex hover:-translate-y-10 transition-all duration-500 ease-in-out>
+          <div className="xl:w-1/4 md:w-1/2 p-4 flex hover:-translate-y-10 transition-all duration-500 ease-in-out">
             <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg w-full">
               <img
                 className="h-40 rounded w-full object-cover object-center mb-6"
