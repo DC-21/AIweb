@@ -1,9 +1,8 @@
 import React from 'react';
-import code from '../images/hero.png';
 import Button from './Button';
 import { Player } from '@lottiefiles/react-lottie-player';
 
-function Hepa() {
+function Hero() {
   return (
     <section className="text-gray-600 body-font">
         <div className="container cover mx-auto flex px-5 py-24 items-center justify-center flex-col">
@@ -32,4 +31,4 @@ function Hepa() {
   );
 }
 
-export default Hepa;
+export default Hero;
