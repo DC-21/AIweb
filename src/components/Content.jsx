@@ -30,14 +30,14 @@ const Content = () => {
         <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
           <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/722x402" alt="content"/>
           <h2 className="text-lg text-white font-medium title-font mb-4">Image Processing</h2>
-          <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+          <p className="leading-relaxed text-base">"Our AI transforms image processing capabilities."</p>
         </div>
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
           <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="content"/>
           <h2 className="text-lg text-white font-medium title-font mb-4">Search Engines</h2>
-          <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+          <p className="leading-relaxed text-base">"Our AI search engines revolutionizes information retrieval."</p>
         </div>
       </div>
     </div>
