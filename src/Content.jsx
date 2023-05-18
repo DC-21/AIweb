@@ -39,9 +39,9 @@ const Content = () => {
                 src={va}
                 alt="content"
               />
-              <h2 className="text-lg text-white font-medium title-font mb-4">
+              <h1 className="text-lg text-white font-medium title-font mb-4 py-2 px-4 border border-blue-600 rounded shadow">
                 Virtual Assistants
-              </h2>
+              </h1>
               <p className="leading-relaxed text-base">
                 "Need someone to talk to, <br /> Our Virtual assistants enhance productivity seamlessly."
               </p>
