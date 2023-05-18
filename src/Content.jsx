@@ -25,7 +25,7 @@ const Content = () => {
                 alt="content"
               />
               <h1 className="text-lg text-white font-bold title-font mb-4 py-2 px-4 border border-blue-600 rounded shadow">
-                Chat Bots
+                AI Chat Bots
               </h1>
               <p className="leading-relaxed text-base font-bold text-white">
                 "Our Efficient chatbots streamline customer interactions."
@@ -40,7 +40,7 @@ const Content = () => {
                 alt="content"
               />
               <h1 className="text-lg text-white font-bold title-font mb-4 py-2 px-4 border border-blue-600 rounded shadow">
-                Virtual Assistants
+                AI Virtual Assistants
               </h1>
               <p className="leading-relaxed text-base font-bold text-white">
                 "Need someone to talk to, <br /> Our Virtual assistants enhance productivity seamlessly."
@@ -55,7 +55,7 @@ const Content = () => {
                 alt="content"
               />
               <h2 className="text-lg text-white font-bold title-font mb-4 py-2 px-4 border border-blue-600 rounded shadow">
-                Image Processing
+                Image Processing AI
               </h2>
               <p className="leading-relaxed text-base text-white font-bold">
                 "Our AI transforms image processing capabilities."
@@ -70,7 +70,7 @@ const Content = () => {
                 alt="content"
               />
               <h2 className="text-lg text-white font-bold title-font mb-4 py-2 px-4 border border-blue-600 rounded shadow">
-                Search Engines
+                AI Search Engines
               </h2>
               <p className="leading-relaxed text-base font-bold text-white">
                 "Our AI search engines revolutionize information retrieval."
