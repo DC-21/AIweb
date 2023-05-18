@@ -11,8 +11,8 @@ const Cta = () => {
         <div className="lg:w-2/6 md:w-1/2 bg-indigo-300 bg-opacity-50 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
           <h2 className="text-blue-800 text-xl title-font mb-5 font-bold">Sign Up</h2>
           <div className="relative mb-4">
-            <label htmlFor="full-name" className="leading-7 text-sm text-white font-bold">Full Name</label>
-            <input type="text" id="full-name" name="full-name" className="w-full bg-indigo-100 bg-opacity-20 focus:bg-transparent focus:ring-2 focus:ring-indigo-900 rounded  focus:border-indigo-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+            <label htmlFor="full-name" className="leading-7 text-sm text-blue-600 font-bold">Full Name</label>
+            <input type="text" id="full-name" name="full-name"  className="w-full bg-white focus:bg-transparent focus:ring-2 focus:ring-white rounded  focus:border-white text-base outline-none text-black py-1 px-3 leading-8  duration-200 ease-in-out" />
           </div>
           <div className="relative mb-4">
             <label htmlFor="email" className="leading-7 text-sm text-white font-bold">Email</label>
