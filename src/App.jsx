@@ -9,7 +9,7 @@ function App() {
   return (
     <>
      <Navbar/>
-     <div className="bg-indigo-200 w-full h-screen">
+     <div className="bg-indigo-200 w-full h-screen rounded">
       <Hero/>
      </div>
      <div className="bg-indigo-200 h-full w-full">
