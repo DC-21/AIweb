@@ -1,4 +1,8 @@
 import React from 'react'
+import chat from './images/chat.jpg'
+import va from './images/va.png'
+import imagepro from './images/imagepro.jpg'
+import search from './images/search.png'
 
 const Content = () => {
   return (
@@ -12,30 +16,30 @@ const Content = () => {
       </div>
     </div>
     <div className="flex flex-wrap -m-4">
-      <div className="xl:w-1/4 md:w-1/2 p-4">
+      <div className="xl:w-1/4 md:w-1/2 p-4 hover:-translate-y-10 transition-all duration-500 ease-in-out">
         <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
-          <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content"/>
+          <img className="h-40 rounded w-full object-cover object-center mb-6" src={chat} alt="content"/>
           <h2 className="text-lg text-white font-medium title-font mb-4">Chat Bots</h2>
           <p className="leading-relaxed text-base">"Our Efficient chatbots streamline customer interactions."</p>
         </div>
       </div>
-      <div className="xl:w-1/4 md:w-1/2 p-4">
+      <div className="xl:w-1/4 md:w-1/2 p-4 hover:-translate-y-10 transition-all duration-500 ease-in-out">
         <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
-          <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/721x401" alt="content"/>
+          <img className="h-40 rounded w-full object-cover object-center mb-6" src={va} alt="content"/>
           <h2 className="text-lg text-white font-medium title-font mb-4">Virtual Assistants</h2>
           <p className="leading-relaxed text-base">"Need someone to talk to, <br/> Our Virtual assistants enhance productivity seamlessly."</p>
         </div>
       </div>
-      <div className="xl:w-1/4 md:w-1/2 p-4">
+      <div className="xl:w-1/4 md:w-1/2 p-4 hover:-translate-y-10 transition-all duration-500 ease-in-out">
         <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
-          <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/722x402" alt="content"/>
+          <img className="h-40 rounded w-full object-cover object-center mb-6" src={imagepro} alt="content"/>
           <h2 className="text-lg text-white font-medium title-font mb-4">Image Processing</h2>
           <p className="leading-relaxed text-base">"Our AI transforms image processing capabilities."</p>
         </div>
       </div>
-      <div className="xl:w-1/4 md:w-1/2 p-4">
+      <div className="xl:w-1/4 md:w-1/2 p-4 hover:-translate-y-10 transition-all duration-500 ease-in-out">
         <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
-          <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="content"/>
+          <img className="h-40 rounded w-full object-cover object-center mb-6" src={search} alt="content"/>
           <h2 className="text-lg text-white font-medium title-font mb-4">Search Engines</h2>
           <p className="leading-relaxed text-base">"Our AI search engines revolutionizes information retrieval."</p>
         </div>

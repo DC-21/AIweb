@@ -2,7 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Blog from './Blog'
-import Content from '../src/components/Content'
+import Content from './Content'
 
 function App() {
 
