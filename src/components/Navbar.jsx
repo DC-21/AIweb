@@ -1,5 +1,4 @@
 import React from 'react';
-i
 
 const Navbar = () => {
   let Links = [
@@ -29,7 +28,6 @@ const Navbar = () => {
                 href={link.link}
                 className="text-blue-900 text-lg font-semibold px-4 py-2 hover:bg-blue-200 duration-500 rounded-md"
               >
-                
                 {link.name}
               </a>
             </li>
