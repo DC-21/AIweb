@@ -44,7 +44,7 @@ const Footer = () => {
             <h2 className="title-font font-bold text-blue-900 tracking-widest text-xl mb-3">AI Search Engine</h2>
             <nav className="list-none mb-10">
               <li>
-                <a className="text-blue-700 hover:text-white">Visual Search Engines</a>
+                <a className="text-blue-700  hover:text-white">Visual Search Engines</a>
               </li>
               <li>
                 <a className="text-blue-700 hover:text-white">Conversational Search Engines</a>
