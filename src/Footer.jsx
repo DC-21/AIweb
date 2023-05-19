@@ -76,10 +76,10 @@ const Footer = () => {
           <a href="#" className="flex-shrink-0">
               <img src={logo} alt="Logo" className=" h-16 md:h-20 w-16 md:w-20 object-contain hover:animate-pulse"/>
             </a>
-            <span className="ml-3 text-xl text-black">DiCE</span>
+            <span className="ml-3 text-xl text-blue-600 font-bold">DiCE</span>
           </a>
-          <p className="text-sm text-black sm:ml-6 sm:mt-0 mt-4">© 2020 DiCE —
-            <a href="https://twitter.com/knyttneve" className="text-black ml-1" target="_blank" rel="noopener noreferrer">@dcwrld</a>
+          <p className="text-sm text-blue-600 font-bold sm:ml-6 sm:mt-0 mt-4">© 2023 DiCE —
+            <a href="https://twitter.com/knyttneve" className="text-blue-600 ml-1" target="_blank" rel="noopener noreferrer">@dcwrld</a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <a className=" text-indigo-700 ">
