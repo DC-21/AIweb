@@ -61,9 +61,9 @@ const Footer = () => {
             <h2 className="title-font font-bold text-blue-800  tracking-widest text-sm mb-3">SUBSCRIBE</h2>
             <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
               <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
-                <input type="text" id="footer-field" name="footer-field" placeholder='email' className="w-full bg-white-800 rounded border bg-opacity-10 border-white focus:bg-transparent focus:ring-2 focus:ring-white focus:border-white text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                <input type="text" id="footer-field" name="footer-field" placeholder='email' className="w-full bg-white-800 rounded border bg-opacity-1 border-white focus:bg-transparent focus:ring-2 focus:ring-white focus:border-white text-base outline-none text-black py-1 px-3 leading-8 transition duration-200 ease-in-out" />
               </div>
-              <button className="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Subscribe</button>
+              <button className="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-white rounded hover:text-black">Subscribe</button>
             </div>
             <p className="text-blue-800 text-sm mt-2 md:text-left text-center">Subscribe for daily updates
             </p>
