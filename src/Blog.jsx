@@ -5,6 +5,7 @@ import make from './images/gpt.png';
 import hom from './images/aii.jpg';
 import mac from './images/mac.png';
 import art from './images/art.jpg';
+import { Link } from 'react-scroll';
 
 function Blog() {
   return (
