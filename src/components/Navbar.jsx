@@ -25,7 +25,7 @@ const handleServices = () => {
   }
 };
 
-const handleAbout = () => {
+const handleContact = () => {
   const about = document.getElementById('about');
   if (about) {
     // Will scroll smoothly to the top of the next section
