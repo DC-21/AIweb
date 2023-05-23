@@ -18,7 +18,9 @@ function Hero() {
             'Unlocking the Power of AI',
             2000
           ]} 
-          speed={50}
+          className='text-black font-bold text-4xl mb-8'
+          repeat={infinity}
+          wrapper='span'
           />
           <Player
             autoplay
