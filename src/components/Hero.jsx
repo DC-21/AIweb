@@ -2,16 +2,18 @@ import React from 'react';
 import Button from './Button';
 import { Player } from '@lottiefiles/react-lottie-player';
 import { TypeAnimation } from 'react-type-animation'
+import { motion } from 'framer-motion'
 
 function Hero() {
   return (
     <section className="text-gray-600 body-font">
       <div className="container cover mx-auto flex flex-wrap px-5 py-24 items-center justify-center">
         <div className="text-center lg:w-2/3 w-full">
-          <TypeAnimation />
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
+          <TypeAnimation sequence={[
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
             Unleashing the Power of AI
           </h1>
+          ]} />
           <Player
             autoplay
             loop
