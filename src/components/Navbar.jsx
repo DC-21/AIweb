@@ -38,11 +38,7 @@ const Navbar = () => {
     <div className="shadow-md w-full top-0 left-0 sticky z-50">
       <div className="md:flex items-center justify-center bg-white py-4 rounded">
         <div className="font-bold text-2xl cursor-pointer flex items-center text-indigo-900 container bg--200 py-2 p-4">
-          <span className="text-2xl text-black-600 mr-1 pt-2">
-            <ion-icon name="play-circle-outline"></ion-icon>
             <img src={logo} alt="Logo" className=" h-16 md:h-20 w-16 md:w-20 object-contain hover:animate-pulse"/>
-          </span>
-          DiCE
         </div>
         <div>
           <input
