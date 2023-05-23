@@ -57,22 +57,22 @@ const Content = () => {
                 <h2 className="text-lg text-white font-bold title-font mb-4 py-2 px-4 border border-blue-600 rounded shadow">
                   Image Processing AI
                 </h2>
-                <p className="leading-relaxed text-base text-white font-bold">
+                <p className="leading-relaxed text-base text-gray-800">
                   "Our AI transforms image processing capabilities."
                 </p>
               </div>
           </div>
           <div className="xl:w-1/4 md:w-1/2 p-4 flex hover:-translate-y-10 transition-all duration-500 ease-in-out cursor-pointer">
-              <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg w-full">
+              <div className="bg-white bg-opacity-40 p-6 rounded-lg w-full">
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
                   src={search}
                   alt="content"
                 />
-                <h2 className="text-lg text-white font-bold title-font mb-4 py-2 px-4 ">
+                <h2 className="text-lg text-gray-800 font-bold title-font mb-4 py-2 px-4 ">
                   AI Search Engines
                 </h2>
-                <p className="leading-relaxed text-base font-bold text-white">
+                <p className="leading-relaxed text-base  text-gray-600">
                   "Our AI search engines revolutionize information retrieval."
                 </p>
               </div>
