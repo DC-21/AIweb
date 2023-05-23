@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './images/logo.png'
+import dice from './images/dice.png'
 
 const Footer = () => {
   return (
@@ -74,7 +74,7 @@ const Footer = () => {
         <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
           <a href="#" className="flex-shrink-0">
-              <img src={logo} alt="Logo" className=" h-16 md:h-20 w-16 md:w-20 object-contain hover:animate-pulse"/>
+              <img src={dice} alt="Logo" className=" h-16 md:h-20 w-16 md:w-20 object-contain hover:animate-pulse"/>
             </a>
             <span className="ml-3 text-xl text-blue-600 font-bold">DiCE</span>
           </a>
