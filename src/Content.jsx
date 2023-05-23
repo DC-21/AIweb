@@ -3,6 +3,7 @@ import chat from './images/chat.jpg';
 import va from './images/va.png';
 import imagepro from './images/imagepro.jpg';
 import search from './images/search.png';
+import { Link } from 'react-scroll';
 
 const Content = () => {
   return (
@@ -16,6 +17,7 @@ const Content = () => {
           </div>
         </div>
         <div className="flex flex-wrap -m-4">
+          <Link>
           <div className="xl:w-1/4 md:w-1/2 p-4 flex hover:-translate-y-10 transition-all duration-500 ease-in-out cursor-pointer">
             <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg w-full">
               <img
@@ -31,6 +33,7 @@ const Content = () => {
               </p>
             </div>
           </div>
+          </Link>
           <div className="xl:w-1/4 md:w-1/2 p-4 flex hover:-translate-y-10 transition-all duration-500 ease-in-out cursor-pointer">
             <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg w-full">
               <img
