@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../images/logo.png' 
+import dice from '../images/dice.png' 
 
 const handleHome = () => {
   const home = document.getElementById('home');
