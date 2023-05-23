@@ -21,6 +21,7 @@ function Hero() {
     className='text-blue-900 font-bold text-4xl mb-8'
     repeat={Infinity}
     wrapper='span'
+
   />
           <Player
             autoplay
