@@ -9,10 +9,13 @@ function Hero() {
     <section className="text-gray-600 body-font">
       <div className="container cover mx-auto flex flex-wrap px-5 py-24 items-center justify-center">
         <div className="text-center lg:w-2/3 w-full">
-          <TypeAnimation sequence={[
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
-            Unleashing the Power of AI
-          </h1>
+        <TypeAnimation sequence={[
+            '<h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">Unleashing the Power of AI</h1>',
+            2000,
+            '<h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">Exploiting the Power of AI</h1>',
+            2000,
+            '<h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">Unlocking the Power of AI</h1>',
+            2000
           ]} />
           <Player
             autoplay
