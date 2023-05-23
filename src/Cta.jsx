@@ -3,7 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Cta = () => {
   return (
-    <section className="text-gray-400 bg-white body-font h-screen">
+    <section className="text-gray-400 bg-white body-font h-screen" id='contact'>
       <div className="container px-5 py-24 mx-auto flex flex-wrap items-center">
         <div className="lg:w-1/2 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
         <TypeAnimation

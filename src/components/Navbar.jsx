@@ -1,14 +1,39 @@
 import React from 'react';
 import Button from './Button';
 
-const Navbar = () => {
-  let Links = [
-    { name: 'Home', link: '/' },
-    { name: 'Blog', link: '/' },
-    { name: 'Services', link: '/' },
-    { name: 'About', link: '/' },
-  ];
+const handleHome = () => {
+  const home = document.getElementById('home');
+  if (home) {
+    // Will scroll smoothly to the top of the next section
+    home.scrollIntoView({ behavior: 'smooth' });
+  }
+};
 
+const handleBlog = () => {
+  const blog = document.getElementById('blog');
+  if (blog) {
+    // Will scroll smoothly to the top of the next section
+    blog.scrollIntoView({ behavior: 'smooth' });
+  }
+};
+
+const handleServices = () => {
+  const services = document.getElementById('services'); // Corrected the element ID
+  if (services) {
+    // Will scroll smoothly to the top of the next section
+    services.scrollIntoView({ behavior: 'smooth' });
+  }
+};
+
+const handleAbout = () => {
+  const about = document.getElementById('about');
+  if (about) {
+    // Will scroll smoothly to the top of the next section
+    about.scrollIntoView({ behavior: 'smooth' });
+  }
+};
+
+const Navbar = () => {
   return (
     <div className="shadow-md w-full top-0 left-0 sticky z-50">
       <div className="md:flex items-center justify-center bg-white py-4 rounded">
@@ -18,22 +43,40 @@ const Navbar = () => {
           </span>
           DiCE
         </div>
-        <div><input type="text" placeholder="Search" className="bg-white-900 border-b-2 border-indigo-400 py-2 px-4 mr-2 text-black-400 focus:outline-none" /></div>
+        <div>
+          <input
+            type="text"
+            placeholder="Search"
+            className="bg-white-900 border-b-2 border-indigo-400 py-2 px-4 mr-2 text-black-400 focus:outline-none"
+          />
+        </div>
         <ul className="md:flex md:items-center ml-4">
-          {Links.map((link) => (
-            <li
-              key={link.name}
-              className="md:ml-8 text-xl px-2 py-1" // Added padding here
+          <li className="md:ml-8 text-xl px-2 py-1">
+            <a
+              onClick={handleHome}
+              className="text-blue-900 text-lg font-semibold px-4 py-2 hover:bg-blue-200 duration-500 rounded-md"
             >
-              <a
-                href={link.link}
-                className="text-blue-900 text-lg font-semibold px-4 py-2 hover:bg-blue-200 duration-500 rounded-md"
-              >
-                
-                {link.name}
-              </a>
-            </li>
-          ))}
+              Home
+            </a>
+            <a
+              onClick={handleBlog}
+              className="text-blue-900 text-lg font-semibold px-4 py-2 hover:bg-blue-200 duration-500 rounded-md"
+            >
+              Blog
+            </a>
+            <a
+              onClick={handleServices}
+              className="text-blue-900 text-lg font-semibold px-4 py-2 hover:bg-blue-200 duration-500 rounded-md"
+            >
+              Services
+            </a>
+            <a
+              onClick={handleContact}
+              className="text-blue-900 text-lg font-semibold px-4 py-2 hover:bg-blue-200 duration-500 rounded-md"
+            >
+              Contact
+            </a>
+          </li>
         </ul>
       </div>
     </div>
