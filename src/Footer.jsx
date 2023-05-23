@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-wrap md:text-left text-center order-first">
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="title-font font-bold text-blue-900 tracking-widest text-xl mb-3">Bots & VA</h2>
-            <nav className="list-none mb-10 cursor-pointer">
+            <nav className="list-none mb-10 cursor-pointer space-y-2">
               <li>
                 <a className="text-blue-700 hover:text-white">Rule-based Chatbots</a>
               </li>
@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="title-font font-bold text-blue-900 tracking-widest text-xl mb-3">AI Image Processing</h2>
-            <nav className="list-none mb-10 cursor-pointer">
+            <nav className="list-none mb-10 cursor-pointer space-y-2">
               <li>
                 <a className="text-blue-700 hover:text-white">Image Classification</a>
               </li>
@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="title-font font-bold text-blue-900 tracking-widest text-xl mb-3">AI Search Engine</h2>
-            <nav className="list-none mb-10">
+            <nav className="list-none mb-10 space-y-2">
               <li>
                 <a className="text-blue-700  hover:text-white">Visual Search Engines</a>
               </li>
@@ -73,10 +73,9 @@ const Footer = () => {
       <div className="bg-white bg-opacity-75">
         <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
-          <a href="#" className="flex-shrink-0">
-              <img src={dice} alt="Logo" className=" h-16 md:h-20 w-16 md:w-20 object-contain hover:animate-pulse"/>
-            </a>
-            <span className="ml-3 text-xl text-blue-600 font-bold">DiCE</span>
+          <div className="font-bold text-2xl cursor-pointer flex items-center text-indigo-900 container bg--200 py-2 p-4">
+            <img src={dice} alt="Logo" className=" h-15 rounded-lg md:h-15 w-16 md:w-20 object-contain hover:animate-pulse"/>
+            </div>
           </a>
           <p className="text-sm text-blue-600 font-bold sm:ml-6 sm:mt-0 mt-4">© 2023 DiCE —
             <a href="https://twitter.com/knyttneve" className="text-blue-600 ml-1" target="_blank" rel="noopener noreferrer">@dcwrld</a>
