@@ -1,11 +1,24 @@
 import React from 'react';
+import { TypeAnimation } from 'react-type-animation';
 
 const Cta = () => {
   return (
     <section className="text-gray-400 bg-white body-font h-screen">
       <div className="container px-5 py-24 mx-auto flex flex-wrap items-center">
         <div className="lg:w-1/2 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
-          <h1 className="title-font font-bold text-3xl text-blue-900">"Unlock the Power of AI"</h1>
+        <TypeAnimation
+    sequence={[
+      'Unleashing the Power of AI',
+      2000,
+      'Exploiting the Power of AI',
+      2000,
+      'Unlocking the Power of AI',
+      2000
+    ]} 
+    className='text-blue-800 font-bold text-4xl mb-8'
+    repeat={Infinity}
+    wrapper='span'
+  />
           <p className="text-2xl text-blue-900 leading-relaxed mt-4">Subscribe to Our Newsletter and Stay Ahead of the Intelligent Revolution</p>
         </div>
         <div className="lg:w-1/3 md:w-1/2 mr-16 bg-indigo-300 bg-opacity-50 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
