@@ -10,18 +10,19 @@ function Hero() {
     <section className="text-gray-600 body-font">
       <div className="container cover mx-auto flex flex-wrap px-5 py-24 items-center justify-center">
         <div className="text-center lg:w-2/3 w-full">
-        <TypeAnimation sequence={[
-            'Unleashing the Power of AI',
-            2000,
-            'Exploiting the Power of AI',
-            2000,
-            'Unlocking the Power of AI',
-            2000
-          ]} 
-          className='text-black font-bold text-4xl mb-8'
-          repeat={infinity}
-          wrapper='span'
-          />
+        <TypeAnimation
+    sequence={[
+      'Unleashing the Power of AI',
+      2000,
+      'Exploiting the Power of AI',
+      2000,
+      'Unlocking the Power of AI',
+      2000
+    ]} 
+    className='text-black font-bold text-4xl mb-8'
+    repeat={Infinity}
+    wrapper='span'
+  />
           <Player
             autoplay
             loop
