@@ -18,13 +18,6 @@ const Content = () => {
         </div>
         <div className="flex flex-wrap -m-4">
           <div className="xl:w-1/4 md:w-1/2 p-4 flex hover:-translate-y-10 transition-all duration-500 ease-in-out cursor-pointer">
-            <Link
-              to="chatbot-section"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
               <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg w-full">
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
@@ -38,16 +31,8 @@ const Content = () => {
                   "Our Efficient chatbots streamline customer interactions."
                 </p>
               </div>
-            </Link>
           </div>
           <div className="xl:w-1/4 md:w-1/2 p-4 flex hover:-translate-y-10 transition-all duration-500 ease-in-out cursor-pointer">
-            <Link
-              to="va-section"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
               <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg w-full">
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
@@ -61,16 +46,8 @@ const Content = () => {
                   "Need someone to talk to, <br /> Our Virtual assistants enhance productivity seamlessly."
                 </p>
               </div>
-            </Link>
           </div>
           <div className="xl:w-1/4 md:w-1/2 p-4 flex hover:-translate-y-10 transition-all duration-500 ease-in-out cursor-pointer">
-            <Link
-              to="imagepro-section"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
               <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg w-full">
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
@@ -84,16 +61,8 @@ const Content = () => {
                   "Our AI transforms image processing capabilities."
                 </p>
               </div>
-            </Link>
           </div>
           <div className="xl:w-1/4 md:w-1/2 p-4 flex hover:-translate-y-10 transition-all duration-500 ease-in-out cursor-pointer">
-            <Link
-              to="search-section"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
               <div className="bg-gray-800 bg-opacity-40 p-6 rounded-lg w-full">
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
@@ -107,7 +76,6 @@ const Content = () => {
                   "Our AI search engines revolutionize information retrieval."
                 </p>
               </div>
-            </Link>
           </div>
         </div>
       </div>
