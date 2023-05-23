@@ -19,7 +19,7 @@ function Hero() {
       'Unlocking the Power of AI',
       2000
     ]} 
-    className='text-blue-800 font-bold text-4xl mb-8'
+    className='text-blue-900 font-bold text-4xl mb-8'
     repeat={Infinity}
     wrapper='span'
   />
@@ -30,7 +30,7 @@ function Hero() {
             style={{ maxWidth: '600px', width: '100%', height: 'auto' }}
             className="z-10 hover:-translate-y-4 transition-all ease-in-out duration-300 cursor-pointer"
           />
-          <p className="mb-8 leading-relaxed font-bold text-black text-2xl">
+          <p className="mb-8 leading-relaxed font-bold text-blue-900 text-2xl">
             Transforming customer experience with AI-powered chatbots and virtual assistants for seamless interactions and efficient support.
           </p>
           <div className="flex justify-center">
