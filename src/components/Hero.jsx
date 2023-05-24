@@ -6,7 +6,7 @@ import { TypeAnimation } from 'react-type-animation'
 function Hero() {
 
   return (
-    <section className="text-gray-600 body-font" id='home'>
+    <section className="text-gray-600 body-font h-screen" id='home'>
       <div className="container cover mx-auto flex flex-wrap px-5 py-24 items-center justify-center">
         <div className="text-center lg:w-2/3 w-full">
         <TypeAnimation

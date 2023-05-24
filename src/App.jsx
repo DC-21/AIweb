@@ -11,7 +11,7 @@ function App() {
   return (
     <>
      <Navbar/>
-     <div className="bg-indigo-200 w-full h-screen rounded">
+     <div>
       <Hero/>
      </div>
      <div className="bg-white h-full w-full">
