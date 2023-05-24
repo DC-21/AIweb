@@ -1,28 +1,26 @@
 import React from 'react';
 import Button from './Button';
 import { Player } from '@lottiefiles/react-lottie-player';
-import { TypeAnimation } from 'react-type-animation'
+import { TypeAnimation } from 'react-type-animation';
 
 function Hero() {
-
   return (
-    <section className="text-gray-600 body-font bg-indigo-200 w-full h-screen rounded" id='home'>
+    <section className="text-gray-600 body-font bg-indigo-200 w-full min-h-screen rounded" id="home">
       <div className="container cover mx-auto flex flex-wrap px-5 py-24 items-center justify-center">
         <div className="text-center lg:w-2/3 w-full">
-        <TypeAnimation
-    sequence={[
-      'Unleashing the Power of AI',
-      2000,
-      'Exploiting the Power of AI',
-      2000,
-      'Unlocking the Power of AI',
-      2000
-    ]} 
-    className='text-blue-900 font-bold text-4xl mb-8'
-    repeat={Infinity}
-    wrapper='span'
-
-  />
+          <TypeAnimation
+            sequence={[
+              'Unleashing the Power of AI',
+              2000,
+              'Exploiting the Power of AI',
+              2000,
+              'Unlocking the Power of AI',
+              2000
+            ]}
+            className="text-blue-900 font-bold text-4xl mb-8"
+            repeat={Infinity}
+            wrapper="span"
+          />
           <Player
             autoplay
             loop
