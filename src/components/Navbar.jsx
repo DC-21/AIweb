@@ -3,7 +3,6 @@ import dice from '../images/dice.png'
 import { HiMenu } from 'react-icons/hi';
 
 const handleHome = () => {
-
   const home = document.getElementById('home');
   if (home) {
     // Will scroll smoothly to the top of the next section
@@ -40,7 +39,7 @@ const Navbar = () => {
     <div className="shadow-md w-full rounded-md top-0 left-0 sticky z-50">
       <div className="md:flex flex-row w-full sm:flex items-center justify-between bg-white py-4 rounded">
         <div className="font-bold text-2xl flex w-full cursor-pointer flex-row justify-between items-center text-indigo-900 bg--200 py-2 p-4">
-            <img src={dice} alt="Logo" className=" h-15 rounded-lg md:h-15 w-16 md:w-20 object-contain hover:animate-pulse"/>
+            <img src={dice} alt="Logo" className="rounded-lg md:h-15 h-10 w-16 md:w-20 object-contain hover:animate-pulse"/>
             <div className="md:hidden block">
             <HiMenu size={24} />
           </div>
