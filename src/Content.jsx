@@ -1,7 +1,7 @@
 import React from 'react';
 import chat from './images/chat.jpg';
 import va from './images/va.png';
-import imagepro from './images/imagepro.jpg';
+import impro from './images/impro.jpg';
 import search from './images/search.png';
 import { Link } from 'react-scroll';
 
@@ -49,7 +49,7 @@ const Content = () => {
               <div className="bg-white bg-opacity-40 p-6 rounded-lg w-full">
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"
-                  src={imagepro}
+                  src={impro}
                   alt="content"
                 />
                 <h2 className="text-lg  text-gray-800 font-bold title-font mb-4 py-2 px-4 ">

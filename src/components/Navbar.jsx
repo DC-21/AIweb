@@ -40,7 +40,7 @@ const Navbar = () => {
         <div className="font-bold text-2xl cursor-pointer flex items-center text-indigo-900 container bg--200 py-2 p-4">
             <img src={dice} alt="Logo" className=" h-15 rounded-lg md:h-15 w-16 md:w-20 object-contain hover:animate-pulse"/>
         </div>
-        <div className="flex">
+        <div className="flex md:flex hidden">
           <input
             type="text"
             placeholder="Search"
