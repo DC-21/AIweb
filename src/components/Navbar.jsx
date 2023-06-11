@@ -75,6 +75,9 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
+        <div className="">
+          <div className="py-1 px-2 w-10 flex bg-blue-800"></div>
+        </div>
       </div>
     </div>
   );
