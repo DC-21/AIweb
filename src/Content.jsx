@@ -9,13 +9,11 @@ const Content = () => {
   return (
     <section className="text-gray-400 body-font bg-indigo-200 rounded justify-center" id='services'>
       <div className="container px-5 py-24 mx-auto items-center justify-center">
-        <div className="flex flex-wrap w-full mb-20 items-center justify-center">
-          <div className="lg:w-1/2 w-full mb-6 lg:mb-0 items-center justify-center">
+          <div className="w-full mb-10 md:1/2  items-center justify-center flex">
             <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2 text-blue-900 justify-center items-center">
               Our Products
             </h1>
           </div>
-        </div>
         <div className="flex flex-wrap -m-4">
           <div className="xl:w-1/4 md:w-1/2 p-4 flex hover:-translate-y-10 transition-all duration-500 ease-in-out cursor-pointer">
               <div className="bg-white bg-opacity-40 p-6 rounded-lg w-full">
