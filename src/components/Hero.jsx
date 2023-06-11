@@ -28,7 +28,7 @@ function Hero() {
             style={{ maxWidth: '600px', width: '100%', height: 'auto' }}
             className="z-10 hover:-translate-y-4 transition-all ease-in-out duration-300 cursor-pointer"
           />
-          <p className="mb-8 leading-relaxed font-bold text-blue-900 text-2xl pb-2">
+          <p className="mb-8 leading-relaxed font-bold text-blue-900 md:text-2xl pb-2">
             Transforming customer experience with AI-powered chatbots and virtual assistants for seamless interactions and efficient support.
           </p>
           <div className="flex justify-center">
