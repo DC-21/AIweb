@@ -36,18 +36,18 @@ const handleContact = () => {
 const Navbar = () => {
   return (
     <div className="shadow-md w-full rounded-md top-0 left-0 sticky z-50">
-      <div className="md:flex items-center justify-center bg-white py-4 rounded">
+      <div className="md:flex sm:flex items-center justify-center bg-white py-4 rounded">
         <div className="font-bold text-2xl cursor-pointer flex items-center text-indigo-900 container bg--200 py-2 p-4">
             <img src={dice} alt="Logo" className=" h-15 rounded-lg md:h-15 w-16 md:w-20 object-contain hover:animate-pulse"/>
         </div>
-        <div>
+        <div className="flex">
           <input
             type="text"
             placeholder="Search"
             className="bg-white-900 border-b-2 border-indigo-400 py-2 px-4 mr-2 text-black-400 focus:outline-none"
           />
         </div>
-        <ul className="md:flex md:items-center ml-4">
+        <ul className="md:flex md:items-center ml-4 md:flex hidden">
           <li className="md:ml-8 text-xl px-2 py-1">
             <a
               onClick={handleHome}
