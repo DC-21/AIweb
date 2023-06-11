@@ -1,8 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import dice from '../images/dice.png' 
 import { HiMenu } from 'react-icons/hi';
 
 const handleHome = () => {
+
   const home = document.getElementById('home');
   if (home) {
     // Will scroll smoothly to the top of the next section
