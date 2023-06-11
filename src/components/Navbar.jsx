@@ -1,5 +1,6 @@
 import React from 'react';
 import dice from '../images/dice.png' 
+import { HiMenu } from 'react-icons/hi';
 
 const handleHome = () => {
   const home = document.getElementById('home');
@@ -40,14 +41,15 @@ const Navbar = () => {
         <div className="font-bold text-2xl cursor-pointer flex items-center text-indigo-900 container bg--200 py-2 p-4">
             <img src={dice} alt="Logo" className=" h-15 rounded-lg md:h-15 w-16 md:w-20 object-contain hover:animate-pulse"/>
         </div>
-        <div className="flex md:flex hidden">
+        <div className="md:flex hidden">
           <input
             type="text"
             placeholder="Search"
             className="bg-white-900 border-b-2 border-indigo-400 py-2 px-4 mr-2 text-black-400 focus:outline-none"
           />
         </div>
-        <ul className="md:flex md:items-center ml-4 md:flex hidden">
+        <div className="md:items-center jml-4 flex">
+          <ul className="md:flex hidden">
           <li className="md:ml-8 text-xl px-2 py-1">
             <a
               onClick={handleHome}
@@ -74,9 +76,10 @@ const Navbar = () => {
               Contact
             </a>
           </li>
-        </ul>
-        <div className="">
-          <div className="py-1 px-2 w-10 flex bg-blue-800"></div>
+          </ul>
+          <div>
+            hello
+          </div>
         </div>
       </div>
     </div>
