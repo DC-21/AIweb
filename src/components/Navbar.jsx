@@ -77,8 +77,8 @@ const Navbar = () => {
             </a>
           </li>
           </ul>
-          <div>
-            hello
+          <div className="">
+            <HiMenu size={30} className=' scale-110'/>
           </div>
         </div>
       </div>
