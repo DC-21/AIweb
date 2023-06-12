@@ -56,7 +56,7 @@ const Navbar = () => {
             <HiMenu size={24} />
           </button>}
           {open ? (
-            <ul className="md:hidden absolute h-50 border shadow-md right-0 top-20 bg-white flex-col">
+            <ul className="md:hidden absolute h-50 rounded-md border shadow-md right-0 top-20 bg-white flex-col">
               <li className="md:ml-8 text-xl px-2 py-1 flex-col flex">
                 <a
                   onClick={handleHome}
