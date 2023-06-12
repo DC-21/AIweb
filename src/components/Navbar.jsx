@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import dice from '../images/dice.png';
 import { HiMenu } from 'react-icons/hi';
+import { FaRegWindowClose } from 'react-icons/fa';
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -50,7 +51,7 @@ const Navbar = () => {
             alt="Logo"
             className="rounded-lg md:h-15 h-10 w-16 md:w-20 object-contain hover:animate-pulse"
           />
-          {open? <button onClick={handleNav}>X</button>:
+          {open? <button onClick={handleNav}><FaRegWindowClose/></button>:
           <button onClick={handleNav} className="md:hidden block">
             <HiMenu size={24} />
           </button>}
