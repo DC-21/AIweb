@@ -55,7 +55,7 @@ const Navbar = () => {
             alt="Logo"
             className="rounded-lg md:h-15 h-10 w-16 md:w-20 object-contain hover:animate-pulse"
           />
-          {open? <button onClick={handleNav}><FaRegWindowClose/></button>:
+          {open? <button onClick={handleNav} className="md:hidden block"><FaRegWindowClose/></button>:
           <button onClick={handleNav} className="md:hidden block">
             <HiMenu size={24} />
           </button>}
@@ -64,7 +64,7 @@ const Navbar = () => {
               <li className="md:ml-8 text-xl px-2 py-1 flex-col flex">
                 <a
                   onClick={handleHome}
-                  className="text-blue-900 text-lg font-semibold px-4 py-2 hover:bg-blue-200 duration-500 rounded-md"
+                  className="text-blue-900 text-lg font-semibold px-4 py-2 hover:bg-blue-800 duration-500 rounded-md"
                 >
                   Home
                 </a>
