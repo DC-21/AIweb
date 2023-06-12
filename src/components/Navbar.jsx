@@ -15,6 +15,7 @@ const Navbar = () => {
     if (home) {
       // Will scroll smoothly to the top of the next section
       home.scrollIntoView({ behavior: 'smooth' });
+      setOpen(!open)
     }
   };
 
@@ -23,6 +24,7 @@ const Navbar = () => {
     if (blog) {
       // Will scroll smoothly to the top of the next section
       blog.scrollIntoView({ behavior: 'smooth' });
+      setOpen(!open)
     }
   };
 
@@ -31,6 +33,7 @@ const Navbar = () => {
     if (services) {
       // Will scroll smoothly to the top of the next section
       services.scrollIntoView({ behavior: 'smooth' });
+      setOpen(!open)
     }
   };
 
@@ -39,6 +42,7 @@ const Navbar = () => {
     if (about) {
       // Will scroll smoothly to the top of the next section
       about.scrollIntoView({ behavior: 'smooth' });
+      setOpen(!open)
     }
   };
 
