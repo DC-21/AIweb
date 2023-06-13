@@ -25,7 +25,7 @@ const Content = () => {
                 <h1 className="text-lg text-center text-gray-800 font-bold title-font mb-4 py-2 px-4">
                   AI Chat Bots
                 </h1>
-                <p className="leading-relaxed text-base   text-gray-600">
+                <p className="leading-relaxed text-base  text-center text-gray-600">
                   "Our Efficient chatbots streamline customer interactions."
                 </p>
               </div>
