@@ -40,7 +40,7 @@ const Content = () => {
                 <h1 className="sm:items-center text-lg text-center text-gray-800 font-bold title-font mb-4 py-2 px-4 ">
                   AI Virtual Assistants
                 </h1>
-                <p className="leading-relaxed text-base text-center  text-gray-600">
+                <p className="leading-relaxed text-base text-center text-gray-600">
                   "Need someone to talk to, <br /> Our Virtual assistants enhance productivity seamlessly."
                 </p>
               </div>
@@ -52,10 +52,10 @@ const Content = () => {
                   src={impro}
                   alt="content"
                 />
-                <h2 className="text-lg  text-gray-800 font-bold title-font mb-4 py-2 px-4 ">
+                <h2 className="text-lg text-center text-gray-800 font-bold title-font mb-4 py-2 px-4 ">
                   Image Processing AI
                 </h2>
-                <p className="leading-relaxed text-base text-gray-600">
+                <p className="leading-relaxed text-center text-base text-gray-600">
                   "Our AI transforms image processing capabilities."
                 </p>
               </div>
@@ -67,10 +67,10 @@ const Content = () => {
                   src={search}
                   alt="content"
                 />
-                <h2 className="text-lg text-gray-800 font-bold title-font mb-4 py-2 px-4 ">
+                <h2 className="text-lg text-center text-gray-800 font-bold title-font mb-4 py-2 px-4 ">
                   AI Search Engines
                 </h2>
-                <p className="leading-relaxed text-base  text-gray-600">
+                <p className="leading-relaxed text-base text-center text-gray-600">
                   "Our AI search engines revolutionize information retrieval."
                 </p>
               </div>
