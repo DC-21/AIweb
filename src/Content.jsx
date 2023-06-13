@@ -22,7 +22,7 @@ const Content = () => {
                   src={chat}
                   alt="content"
                 />
-                <h1 className="text-lg  text-gray-800 font-bold title-font mb-4 py-2 px-4">
+                <h1 className="text-lg text-center text-gray-800 font-bold title-font mb-4 py-2 px-4">
                   AI Chat Bots
                 </h1>
                 <p className="leading-relaxed text-base   text-gray-600">
