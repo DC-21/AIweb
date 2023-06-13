@@ -17,7 +17,7 @@ function Hero() {
               'Unlocking the Power of AI',
               2000
             ]}
-            className="text-blue-900 font-bold text-4xl mb-8"
+            className="text-blue-900 font-bold md:text-4xl text-2xl mb-8"
             repeat={Infinity}
             wrapper="span"
           />
