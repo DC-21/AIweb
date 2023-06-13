@@ -37,10 +37,10 @@ const Content = () => {
                   src={va}
                   alt="content"
                 />
-                <h1 className="sm:items-center text-lg  text-gray-800 font-bold title-font mb-4 py-2 px-4 ">
+                <h1 className="sm:items-center text-lg text-center text-gray-800 font-bold title-font mb-4 py-2 px-4 ">
                   AI Virtual Assistants
                 </h1>
-                <p className="leading-relaxed text-base   text-gray-600">
+                <p className="leading-relaxed text-base text-center  text-gray-600">
                   "Need someone to talk to, <br /> Our Virtual assistants enhance productivity seamlessly."
                 </p>
               </div>
