@@ -9,7 +9,7 @@ const Content = () => {
   return (
     <section className="w-full text-gray-400 body-font bg-indigo-200 rounded justify-center" id='services'>
       <div className="md:container px-5 py-24 mx-auto items-center justify-center">
-          <div className="w-full mb-10 md:1/2  items-center justify-center flex">
+          <div className="w-full mb-10 md:1/2 pt-4 items-center justify-center flex">
             <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2 text-blue-900 justify-center items-center">
               Our Products
             </h1>
