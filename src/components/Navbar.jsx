@@ -9,7 +9,6 @@ const Navbar = () => {
   const handleNav=()=>{
     setOpen((prevOpen) => !prevOpen);
   }
-
   const handleHome = () => {
     const home = document.getElementById('home');
     if (home) {
@@ -72,7 +71,7 @@ const Navbar = () => {
                   onClick={handleBlog}
                   className="text-blue-900 text-lg font-semibold px-4 py-2 hover:bg-blue-200 duration-500 rounded-md"
                 >
-                  Blog
+	                  Blog
                 </a>
                 <a
                   onClick={handleServices}
